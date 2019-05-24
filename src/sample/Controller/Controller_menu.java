@@ -101,23 +101,7 @@ public Controller_menu() throws IOException {
     Controller_Download.add(d);
 }
 
-//public  static void setO(ArrayList<Download>downloads) throws IOException {
-//
-//    d=downloads;
-//
-//    for (int i=0;i<d.size();i++)
-//    {
-//        System.out.println(d.get(i).getName());
-//    }
-////    System.out.println(data_table.get(0).getName());
-////
-////
-////    info_tabele.setItems(data_table);
-////    menu();
-//
-//
-//
-//}
+
     public  void initcols() throws IOException {
 
         Name_id.setCellValueFactory(new PropertyValueFactory<>("Name"));

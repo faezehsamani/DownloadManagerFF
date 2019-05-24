@@ -137,7 +137,7 @@ public class Controller_Download {
 
 
 
-//                fieldLength = connection.getContentLengthLong();
+
 
             }
             return null;
