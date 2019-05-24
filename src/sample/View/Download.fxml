@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="206.0" prefWidth="486.0" style="-fx-background-color: #2c3e50; -fx-border-color: #2980b9;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.Controller_Download">
+   <children>
+      <TextField fx:id="txturl_id" layoutX="25.0" layoutY="93.0" prefHeight="38.0" prefWidth="423.0" promptText="URL" style="-fx-background-color:#3498db; -fx-border-color: #2980b9;" />
+      <Label fx:id="Enterurl_id" layoutX="25.0" layoutY="62.0" prefHeight="20.0" prefWidth="261.0" text="Enter URL :" textFill="#1992b5">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="ok_buttn" layoutX="391.0" layoutY="156.0" mnemonicParsing="false" onAction="#addDownload" prefHeight="25.0" prefWidth="62.0" style="-fx-background-color: #2980b9;" text="OK" />
+      <Button fx:id="cancel_id" layoutX="303.0" layoutY="156.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="62.0" style="-fx-background-color: #2980b9;" text="Cancel" />
+   </children>
+</AnchorPane>
