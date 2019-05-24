@@ -125,9 +125,7 @@ public Controller_menu() throws IOException {
         Url_id.setCellValueFactory(new PropertyValueFactory<>("Url"));
 
          Size_id.setCellValueFactory(new PropertyValueFactory<>("Size"));
-//        Added_id.setCellValueFactory(new PropertyValueFactory<>("Added"));
-//        Speed_id.setCellValueFactory(new PropertyValueFactory<>("Speed"));
-//        Status_id.setCellValueFactory(new PropertyValueFactory<>("Status"));
+
           Added_id.setCellValueFactory(new PropertyValueFactory<>("speed"));
 for(int i=0;i<d.size();i++) {
     if(i==d.size()-1){
